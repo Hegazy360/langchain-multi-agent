@@ -1,0 +1,12 @@
+langchain==0.1.4
+python-dotenv==1.0.1
+faiss-cpu==1.7.4
+altair<5
+openai==1.10.0
+tiktoken==0.5.2
+langchain-community==0.0.16
+langchain_openai==0.0.5
+urllib3==1.26.6
+tavily-python==0.3.1
+bs4==0.0.2
+langchainhub==0.1.14
