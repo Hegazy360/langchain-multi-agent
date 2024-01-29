@@ -27,3 +27,29 @@ This Python application is a proof of concept (POC) for a basic multi-agent, mul
 2. Install the dependencies `pip install -r requirements.txt`
 3. Set the necessary environment variables using a `.env` file.
 4. Run the Python script using the command `python app.py`.
+
+## Demo
+
+- **Query:** What's LangSmith?
+  - **Classification:** Technical/General
+  - **Agent:** Technical Agent
+  - **Tool:** LangSmith Search Tool
+  - **Response:** "LangSmith is a tool developed by LangChain..."
+
+- **Query:** What's the weather in Lyon, France?
+  - **Classification:** Technical/General
+  - **Agent:** Technical Agent
+  - **Tool:** Tavily Search Tool
+  - **Response:** "The weather in Lyon, France is currently partly cloudy with a temperature of 52°F (11°C). The wind speed is 2.3 mph (3.7 km/h)"
+
+- **Query:** Hello! What's 9+2?
+  - **Classification:** Math
+  - **Agent:** Math Agent
+  - **Tool:** Basic Calculator Tool
+  - **Response:** "The sum of 9 and 2 is 11."
+
+- **Query:** What's the solution to 3x+5=14?
+  - **Classification:** Math
+  - **Agent:** Math Agent
+  - **Tool:** Equation Solver Tool
+  - **Response:** "I apologize, but the equation solver feature is currently under development. I am unable to provide you with the solution to the equation 3x+5=14 at the moment."
