@@ -42,7 +42,7 @@ This Python application is a proof of concept (POC) for a basic multi-agent, mul
   - **Tool:** Tavily Search Tool
   - **Response:** "The weather in Lyon, France is currently partly cloudy with a temperature of 52°F (11°C). The wind speed is 2.3 mph (3.7 km/h)"
 
-- **Query:** Hello! What's 9+2?
+- **Query:** What's 9+2?
   - **Classification:** Math
   - **Agent:** Math Agent
   - **Tool:** Basic Calculator Tool
